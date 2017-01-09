@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="2) Corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:text="If they mark a corner, mark the center, or you will almost certainly lose against a good opponent. Then remember that there is one outcome in which a tie is possible from above. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22" />
+
+    <TextView
+        android:text="Your opponent has two choices, to either form a diagonal or place their next piece somewhere else. Assuming that their move forms a diagonal, as the strategy would dictate, stay on the edges and off the corners. You can force a tie this way."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23" />
+
+    <ImageView
+        android:layout_width="363dp"
+        android:layout_height="116dp"
+        android:src="@drawable/instr6"
+        android:id="@+id/imageView6" />
+
+    <TextView
+        android:text="Else, as usual, keep blocking until a tie is reached."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="Of course, this is the logic of Tic-Tac-Toe, but there are certain useful tips that can help you when playing with a good player."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:text="Don't be a reactionary, impulsive player. Unless there's a time limit, take as much time as you want, thinking the move through. Don't react immediately to what your opponent is doing; Sometimes the most obvious move might not be the right one."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:text="Make safe moves. Every move of yours should be dictated by strategy - In the middle of the game, the best way to make a move is to think a few moves ahead, and what your opponent might do. First consider whether a certain move can win you the game, or block the opponent from winning. If not, then make sure to always think strategy. The best way to win is to figure out how to create two ways to win at once."
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27" />
+</LinearLayout>

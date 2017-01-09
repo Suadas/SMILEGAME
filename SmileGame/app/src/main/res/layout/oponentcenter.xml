@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="IF YOUR OPPONENT GOES FIRST..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text="Unfortunately, if your opponent goes first and uses all the above techniques, there's no way that you can win. In fact, the only way you can win is if his/her first move is an edge piece. If so, carry out all the steps shown above."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="So what can you do to at least bring the match to a draw, given that your opponent plays a good strategy?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="Remember what we said before - Your opponent will either choose a corner or the center piece."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17" />
+
+    <TextView
+        android:text="1) Center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:text="If he chooses the center, place your O on the corner immediately, which will buy you some time. According to the best strategy, your opponent will place his next X on the opposite corner to yours. Your next piece should not be bordering your previous move. Then, it's the simple matter of continuously blocking and counter-attacking until a tie is reached."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19" />
+
+    <ImageView
+        android:layout_width="371dp"
+        android:layout_height="98dp"
+        android:src="@drawable/instr5"
+        android:id="@+id/imageView5"
+        android:layout_weight="0.25" />
+
+    <TextView
+        android:text="Even if they don't use this strategy, keep blocking until you reach a tie."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20" />
+
+</LinearLayout>

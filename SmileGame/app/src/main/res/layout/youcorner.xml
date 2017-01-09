@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="2) Corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:text="If you play a corner piece first, there are only two significant response that your opponent can make: Center, or not center."
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:text="If their first move is away from the center, you should be able to win. Remember that your first piece is contained in both a vertical and horizontal row. Your next move should be in the other corner of the same row you placed your first piece. They'll likely counter-attack, leaving two options for you, and an easy path to victory. This will work whether they play a corner or an edge piece first up."
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:src="@drawable/instr2"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="Here's another great way to trap your opponent:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/inst3"
+        android:id="@+id/imageView4" />
+</LinearLayout>
