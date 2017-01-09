@@ -242,9 +242,9 @@ public Boolean  endGame(){
 
     //bellow row
     if(a.equals(b)&&a.equals(c)){
-        if(a.equals("X")) {msg(name1 +" is winner!");setColorBtn(b1,b2,b3);return true;}
+        if(a.equals("X")) {msg(name1 + " is winner!");setColorBtn(b1,b2,b3);return true;}
         else
-        if(a.equals("O")) {msg(name2 +" is winner!");setColorBtn(b1,b2,b3);return true;}
+        if(a.equals("O")) {msg(name2 + " is winner!");setColorBtn(b1,b2,b3);return true;}
 
     }
     //mid row
@@ -272,7 +272,7 @@ public Boolean  endGame(){
     //colom 3
     if(c.equals(i)&&c.equals(f)){
         if(c.equals("X")) {msg(name1 + " is winner!");setColorBtn(b3,b9,b6);return true;}
-        if(c.equals("O")) {msg(name2 +" is winner!");setColorBtn(b3,b9,b6);return true;}
+        if(c.equals("O")) {msg(name2 + " is winner!");setColorBtn(b3,b9,b6);return true;}
     }
     //cros1
     if(c.equals(d)&&c.equals(h)){
