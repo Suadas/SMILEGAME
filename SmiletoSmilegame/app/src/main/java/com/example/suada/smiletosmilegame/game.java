@@ -285,7 +285,7 @@ public Boolean  endGame(){
         if(a.equals("O")) {msg(name2 + " is winner!");setColorBtn(b1,b6,b8);return true;}
     }
     if(!a.equals("")&&!b.equals("")&&!c.equals("")&&!d.equals("")&&!e.equals("")&&!f.equals("")&&
-            !g.equals("")&&!h.equals("")&&!i.equals("")){msg("DRAW");return true;}
+            !g.equals("")&&!h.equals("")&&!i.equals("")){msg("DRAW !");return true;}
 
 
     return false;
