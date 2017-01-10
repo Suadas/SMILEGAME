@@ -6,7 +6,7 @@
     <uses-sdk android:maxSdkVersion="8"/>
 
     <application
-        android:icon="@drawable/smile"
+        android:icon="@drawable/images"
         android:label="@string/app_name">
         <activity
             android:name=".MainActivity"
