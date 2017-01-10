@@ -2,18 +2,25 @@ package com.example.suada.smiletosmilegame;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
+
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        MediaPlayer sound;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
 
         Button start = (Button) findViewById(R.id.start);

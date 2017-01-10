@@ -41,7 +41,7 @@
     <TextView
         android:text="@string/player2"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
@@ -52,7 +52,7 @@
     <TextView
         android:text="@string/player1"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
@@ -63,14 +63,14 @@
 
     <Button
         android:text="@string/play_button"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
         android:background="@color/greymatte"
         android:textColor="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="91dp"
+
+        android:layout_marginTop="98dp"
         android:id="@+id/play"
         android:layout_below="@+id/editText3"
-        android:layout_alignLeft="@+id/editText3"
-        android:layout_alignStart="@+id/editText3" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -63,15 +63,16 @@
             <TextView
                 android:layout_height="70dp"
                 android:layout_marginTop="50px"
-                android:layout_marginLeft="145px"
+                android:layout_marginLeft="135px"
                 android:layout_marginRight="130px"
                 android:inputType="textPersonName"
-                android:text="Tic Tac Toe"
+                android:text="TicTacToe"
                 android:ems="10"
                 android:id="@+id/editText"
+                android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-                android:layout_weight="0.13"
-                android:layout_width="match_parent"
+
+                android:layout_width="450dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
